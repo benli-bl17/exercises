@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #1f1e1f;
+}
+
+.parallax {
+  width: 100%;
+  height: 80vh;
+  position: relative;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.p1 {
+  background-image: url(./image/Nature\'s\ Window.jpg);
+}
+.p2 {
+  background-image: url(./image/Remarkable\ Rocks.jpg);
+}
+.p3 {
+  background-image: url(./image/Montgomery\ Reef.jpg);
+}
+
+.content {
+  width: 960px;
+  height: 40vh;
+  margin: 0 auto;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h3 {
+  font-size: 45px;
+  letter-spacing: 10px;
+  text-align: center;
+  color: white;
+  font-weight: 400;
+}
+
+p {
+  color: #eee;
+  font-size: 16px;
+  line-height: 28px;
+}
